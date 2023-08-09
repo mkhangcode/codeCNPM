@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ThoiGianBieuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lưu ý các kí hiệu phòng học"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Kí hiệu A.., B.., LAB, PM..: Cơ sở 828 Sư Vạn Hạnh (Quận 10)"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Kí hiệu C..: Cơ sở M4-M7-M9 Thất Sơn (Quận 10)"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Kí hiệu D..: Cơ sở 298-304 Cao Thắng (Quận 10)"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Kí hiệu T..: Cơ sở 357 Lê Hồng Phong (Quận 10)"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian biểu trong ngày tại các cơ sở"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sáng: Từ tiết 1 đến tiết 6"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="- Tiết 1:"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 6 giờ 45 phút đến 7 giờ 35 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 2:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 7 giờ 35 phút đến 8 giờ 25 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 3:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 8 giờ 25 phút đến 9 giờ 15 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 4:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 9 giờ 30 phút đến 10 giờ 25 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 5:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 10 giờ 25 phút đến 11 giờ 10 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 6:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 11 giờ 10 phút đến 12 giờ 00 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chiều: Từ tiết 7 đến tiết 12"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:textSize="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="- Tiết 7:"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 12 giờ 45 phút đến 13 giờ 35 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 8:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 13 giờ 35 phút đến 14 giờ 25 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 9:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 14 giờ 25 phút đến 15 giờ 15 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 10:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 15 giờ 30 phút đến 16 giờ 25 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 11:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 16 giờ 25 phút đến 17 giờ 10 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 12:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 17 giờ 10 phút đến 18 giờ 00 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tối: Từ tiết 13 đến tiết 15"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:textSize="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 13:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 18 giờ 15 phút đến 19 giờ 05 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 14:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 19 giờ 05 phút đến 19 giờ 55 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Tiết 15:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Từ 19 giờ 55 phút đến 20 giờ 45 phút"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_signin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="Thêm học sinh"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:paddingVertical="10dp"
+        android:text="Thông tin khóa học"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/SpinnerMajor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+    <Spinner
+        android:id="@+id/SpinnerKhoaHoc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+    <Spinner
+        android:id="@+id/SpinnerLoaiHinhDaoTao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutClass"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập lớp"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnSangTrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="@drawable/btn_getstart"
+        android:text="Sang trang"
+        android:textColor="@color/white" />
+
+</LinearLayout>

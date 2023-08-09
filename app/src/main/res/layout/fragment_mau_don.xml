@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MauDonFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="**Các loại mẫu đơn:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin bảo lưu: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownBaoLuu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin chuyển ngành: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownChuyenNganh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin xác nhận sinh viên: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownXacNhanSinhVien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin cấp bảng điểm: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownCapBangDiem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin thôi học: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownXinThoiHoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Mẫu đơn xin gia hạn học phí: "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <android.widget.Button
+                    android:id="@+id/btndownGiaHanHocPhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tải tại đây"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:background="@null"
+                    android:textStyle="italic"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

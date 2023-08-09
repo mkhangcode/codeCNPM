@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NoiQuyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Căn cứ Quyết định số 647/QĐ-ĐNT ngày 20 tháng 5 năm 2022 của Hiệu trưởng về việc ban hành Nội quy trường học – Trường Đại học Harvard. Nhà trường thông báo đến toàn thể cán bộ, giảng viên, chuyên viên, nhân viên và người học khi làm việc và học tập tại trường Đại học Harvard phải thực hiện nghiêm túc các quy định như sau:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 1:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Khi làm việc, học tập, sinh hoạt tại trường phải đeo thẻ cán bộ, giảng viên, chuyên viên, nhân viên và người học. Thẻ phải do nhà trường cấp phát."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 2:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Trang phục lịch sự, phù hợp với môi trường học đường. Tuyệt đối không mặc quần lưng trễ; quần/váy/đầm quá ngắn hoặc xẻ cao (chiều dài quần/váy/đầm phải qua gối tối thiểu là 5cm); áo trễ cổ, áo không có ống tay, áo ngắn ngang thắt lưng, áo voan mỏng, áo lưới…, không trang điểm lòe loẹt."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 3:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Chế độ làm việc, học tập, sinh hoạt áp dụng theo quy định hiện hành của nhà trường. Chỉ những người học có tên trong danh sách lớp, môn học mới được tham dự lớp học."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 4:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Đi nhẹ, nói khẽ, lịch thiệp, hòa nhã, văn minh, không nói tục, chửi thề. Không xúc phạm nhân phẩm, danh dự, không xâm phạm thân thể nhà giáo, cán bộ, người lao động, người học, phụ huynh và khách đến liên hệ công việc của nhà trường."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 5:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Không viết và nói sai những điều sai sự thật làm ảnh hưởng đến uy tín của nhà trường."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 6:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Không gây ồn ào, mất trật tự làm ảnh hưởng đến công tác tổ chức giảng dạy, học tập của nhà trường. Nghiêm cấm mang theo chất gây cháy, gây nổ, chất độc hại, các loại vũ khí, hung khí vào trường."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 7:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Nghiêm cấm sao in và phát hành các loại giáo trình, tài liệu học tập trái với quy định của nhà trường và của pháp luật; không lợi dụng việc đến lớp, nơi làm việc để tuyên truyền, phổ biến những nội dung trái với chính sách, quan điểm của Đảng và Nhà nước, nội quy của nhà trường."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 8:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Có trách nhiệm bảo quản tài sản, trang thiết bị của nhà trường. Gìn giữ môi trường làm việc, học tập, trong lành, sạch đẹp. Nếu có tài sản, trang thiết bị hư hỏng mất mát phải báo cho đơn vị chức năng để sửa chữa. Không tự ý di chuyển trang thiết bị tài sản ra khỏi vị trí đã sắp xếp, lắp đặt trong phòng."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 9:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Thực hiện tốt bảo vệ môi trường, giữ gìn vệ sinh chung, bỏ rác vào thùng, tiết kiệm điện, nước khi sử dụng."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điều 10:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Không uống rượu, bia, hút thuốc lá trong trường. Không mang đồ ăn, thức uống (trừ nước suối, nước lọc)… vào phòng học, hội trường, thư viện."
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nếu vi phạm các quy định trên, tùy theo mức độ, cán bộ, giảng viên, chuyên viên, nhân viên và người học sẽ phải chịu các hình thức kỷ luật và bồi thường thiệt hại tài sản gây hư hỏng, mất mát (nếu có)./."
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

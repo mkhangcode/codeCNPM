@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_Home"
+        android:title="Trang chủ"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/nav_info"
+        android:title="Thông tin cá nhân"
+        android:icon="@drawable/baseline_person_24"/>
+    <item
+        android:id="@+id/nav_regulations"
+        android:title="Quy định"
+        android:icon="@drawable/baseline_bookmark_border_24"/>
+    <item
+        android:id="@+id/nav_times"
+        android:title="Thời gian biểu trong ngày"
+        android:icon="@drawable/baseline_access_time_24"/>
+    <item
+        android:id="@+id/nav_creMySubject"
+        android:title="Đăng ký học phần"
+        android:icon="@drawable/baseline_app_registration_24"/>
+    <item
+        android:id="@+id/nav_creaWord"
+        android:title="Mẫu đơn"
+        android:icon="@drawable/baseline_assignment_24"/>
+    <item
+        android:id="@+id/nav_logOut"
+        android:title="Đăng xuất"
+        android:icon="@drawable/baseline_logout_24"/>
+</menu>

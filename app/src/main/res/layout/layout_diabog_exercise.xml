@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_signin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingVertical="10dp"
+        android:text="Tạo bài tập"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/SpinnerSubject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/SpinnerClassID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50px" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutTitleEx"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập tiêu đề"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text"
+        app:layout_constraintVertical_bias="0.100000024">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutContentEx"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập nội dung"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/imgbtnSelectImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_image_24" />
+
+    <android.widget.Button
+        android:id="@+id/ThemHinhAnh"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:background="@drawable/btn_getstart"
+        android:text="Thêm hình ảnh"
+        android:textColor="@color/white" />
+
+    <android.widget.Button
+        android:id="@+id/TaoBaiTap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="@drawable/btn_getstart"
+        android:text="Tạo bài tập"
+        android:textColor="@color/white" />
+
+</LinearLayout>

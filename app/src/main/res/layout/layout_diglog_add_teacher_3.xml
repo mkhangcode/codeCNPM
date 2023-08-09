@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_signin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:paddingVertical="10dp"
+        android:text="Thông tin giảng dạy"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/SpinnerChuyenNganh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/SpinnerMonDay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" />
+
+    <android.widget.Button
+        android:id="@+id/btnSangTrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="@drawable/btn_getstart"
+        android:text="Xong"
+        android:textColor="@color/white" />
+
+</LinearLayout>

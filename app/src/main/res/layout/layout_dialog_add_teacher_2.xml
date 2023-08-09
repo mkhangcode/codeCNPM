@@ -1,0 +1,271 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_signin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:paddingVertical="10dp"
+        android:text="Thông tin liên lạc"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutDanToc"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập dân tộc"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutTonGiao"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập tôn giáo"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutQuocGia"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập quốc giá"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutSoDienThoai"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập số điện thoại"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutDiaChiThuongTru"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập địa chỉ thường trú"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutTinhThanh"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập tỉnh thành"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutQuanHuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="Nhập quận huyện"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/grey"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:layout_constraintVertical_bias="0.100000024">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edt_signin"
+                android:letterSpacing="0.1"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutHoTenThanNhan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập họ tên thân nhân"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutSdtThanNhan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập số điện thoại thân nhân"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayoutDiaChiThanNhan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập địa chỉ thân nhân"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/grey"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_signin"
+            android:letterSpacing="0.1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnSangTrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_getstart"
+        android:text="Sang trang"
+        android:textColor="@color/white" />
+
+</LinearLayout>

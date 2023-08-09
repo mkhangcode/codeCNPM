@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617473990529",
+    "project_id": "quanlyhocsinh-cb9c6",
+    "storage_bucket": "quanlyhocsinh-cb9c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617473990529:android:ad1f853131faffb5e19280",
+        "android_client_info": {
+          "package_name": "com.example.harvard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617473990529-3ks0hnrprjq0n8rs869fql0tqb6soi6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd9IjI0THX-CHevcouRQ8p4hyb4Jk_W-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617473990529-3ks0hnrprjq0n8rs869fql0tqb6soi6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
